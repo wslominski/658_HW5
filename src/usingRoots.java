@@ -2,7 +2,7 @@ public class usingRoots
 {
   public static void main(String[] args)
   {
-     double a=2, b=-10, c=2;
+     double a=-3, b=3, c=3;
 
      Roots.calculate_roots(a,b,c);
      System.out.println(Roots.num_roots());

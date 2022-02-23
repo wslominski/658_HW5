@@ -37,7 +37,6 @@ class Roots
     public static double num_roots()
     {
           return num_roots;
-
     }
 
     public static double first_root()
