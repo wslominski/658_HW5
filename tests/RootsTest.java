@@ -75,4 +75,15 @@ public class RootsTest {
         assertEquals(-0.618,rootOne,0.0001);
         assertEquals(1.618, rootTwo, 0.0001);
     }
+
+    @Test
+    public void calculate_roots_A0() {
+        Roots.calculate_roots(0,3,3);
+        double numRoots = Roots.num_roots();
+        double rootOne = Roots.first_root();
+        double rootTwo = Roots.second_root();
+        assertEquals(0,numRoots,0.0001);
+        assertEquals(-1,rootOne,0.0001);
+        assertEquals(-1, rootTwo, 0.0001);
+    }
 }
